@@ -1,22 +1,18 @@
 # Vue全家桶仿移动端AcFun弹幕视频网WebApp
 
-> 个人实现的一个较为完整的vue项目（1.0版本），部分细节还在优化中，欢迎star！star！star！
+> 个人实现的一个较为完整的vue项目，部分细节还在优化中。
 
 ## 项目描述
 
-- [项目源码](https://github.com/tancky/vue-acfun/)
-- [在线预览](https://tancky.github.io/vue-acfun/#/)
+这是一款弹幕视频分享应用，主要功能：看视频、阅读文章、发评论。
 
 ### 技术栈
 
-- ES6  全面ES6语法编写
-- Vue.js (version 2.0)  
-- Vue-router  Vue官方路由库,处理路由请求
-- axios  处理Ajax请求
-- Vuex  状态管理模式，管理组件间的状态，实现非父子组件之间的通信
-- mint-ui 移动端UI组件库
-- less CSS预处理语言
-- Express vue-cli使用Express做服务器
+- 使用Vue框架进行页面的设计及功能的应用
+- 使用HTML+CSS进行页面UI，配合flex布局
+- 使用AJAX获取后台数据          
+- 应用了页面路由的搭建，制作推荐/动画/娱乐等页面的切换
+- 应用了Mint-Ui，做轮播图的滚动以及滑动效果
 - webpack 前端模块化解决方案兼打包构建工具
 
 ### 功能介绍
@@ -31,7 +27,7 @@
 ### 遇到的问题(待更新)
 
 
-![图片预览](http://i1.buimg.com/1949/2cb42d6b37c99686.gif)
+- 视频数据没有请求到
 
 
 ## Build Setup
