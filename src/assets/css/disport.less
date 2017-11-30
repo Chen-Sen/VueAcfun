@@ -1,0 +1,115 @@
+@netpink: #fd4c5d;
+
+.wrap {
+  position: relative;
+  .disport-header {
+    .disport-banner {
+      background-color: #fff;
+      display: block;
+      width: 100%;
+      height: 15rem;
+      margin: 0 auto;
+    }
+    .disport-nav {
+      position: relative;
+      padding-top: 2rem;
+      padding-left: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      li {
+        width: 30%;
+        height: 30%;
+        line-height: 3rem;
+        margin-bottom: .8rem;
+        margin-right: .8rem;
+        font-size: 1.4rem;
+        background-color: @netpink;
+        color: #fff;
+        &:active {
+          color: #000;
+          background-color: rgba(225,225,225,.95);
+          transition: all .1s;
+        }
+      }
+    }
+  }
+  .hot-disport {
+    position: relative;
+    margin-top: 2rem;
+    .content-wrap {
+      position: relative;
+      display: inline-block;
+      .content-item {
+        position: relative;
+        display: inline-block;
+        img {
+          width: 2rem;
+          height: 2rem;
+        }
+        h4 {
+          margin-left: 3rem;
+          line-height: 2.5rem;
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+    .hot-top {
+      display: block;
+      width: 95%;
+      height: 20%;
+      margin: 0 auto;
+    }
+    .disport-content {
+      position: relative;
+      width: 100%;
+      margin-left: 1rem;
+      margin-top: 2rem;
+      .col-xs-6 {
+        position: relative;
+        width: 44%;
+      }
+      .disport-item {
+        position: relative;
+        display:inline-block;
+        //height: 16rem;
+        margin-right: 1.3rem;
+        margin-bottom: 1.5rem;
+        background-color: #fff;
+        border-radius: .5rem;
+        border: 1px solid #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        > img {
+          width: 100%;
+          height: 50%;
+          background-size: cover;
+        }
+        .disport-info {
+          margin-top: .5rem;
+          line-height: 1.2rem;
+          .disport-user {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            align-content: center;
+          }
+          .disport-author {
+            flex: 1;
+            color: #9c9c9c;
+          }
+          .disport-num {
+            margin-top: .1rem;
+            margin-left: .2rem;
+            color: #9c9c9c;
+          }
+          .fa-eye {
+            color: #c1c1c1;
+          }
+        }
+      }
+    }
+  }
+}
